@@ -1,21 +1,49 @@
 @charset "UTF-8";
 
-
+body{
+	font-family: "Nanum Gothic", "나눔고딕", "돋움";
+}
 /********* header의 시작 ********/
 .header {
 	width: 100%;
-	height: 100px;
-	background-color: black;
+	height: 67px;
+	background-image: url("../images/commons/dream_factory_bg.gif");
+	background-repeat: repeat-y;
+	
 	
 }
 
 .header > div {
 	width: 65%;
 	height: 100%;
-	background-color: red;
+	background-color: white;
 	margin: 0 auto;
 }
 
+.logo {
+	/* border: 1px solid red; */
+	padding: 21px 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.nav {
+	color: blue;
+	float: left;
+	margin-left: 100px;
+}
+
+.main_menu > li {
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	line-height: 67px;
+}
+
+.main_menu > li > a {
+	text-decoration: none;
+	color: blue;
+}
 
 /********* main의 시작 ********/
 .main {
